@@ -8,7 +8,6 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 import pyqtgraph as pg
-import time
 
 
 def create_table():
@@ -1185,7 +1184,7 @@ class ImportSubNumbers(Menu):
 
         self.label1 = QLabel(self)
         self.label1.setGeometry(50, 60, 550, 40)
-        self.label1.setText('Выберете файл, из котрого хотите импортировать данные о начислениях')
+        self.label1.setText('Выберете файл, из котрого хотите импортировать данные о абонентских номерах')
 
         self.choose_file = QPushButton('Выбрать файл', self)
         self.choose_file.setGeometry(50, 120, 250, 40)
